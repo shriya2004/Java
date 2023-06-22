@@ -1,0 +1,15 @@
+  1 import java.io.*;
+  2 import java.util.*;
+  3 class Test
+  4 {
+  5     public static void main(String args[])
+  6     {
+  7         Scanner s = new Scanner(System.in);
+  8                 System.out.println("Enter number1 : ");
+  9         int a = s.nextInt();
+ 10         System.out.println("Enter number2 : ");
+ 11         int b = s.nextInt();
+ 12         int c = a + b;
+ 13         System.out.println(c);
+ 14     }
+ 15 }
